@@ -40,10 +40,10 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           ? Builder(
               builder: (context) => Container(
                 color: Colors.transparent,
-                child: Image.asset(
-                  'assets/images/ryan-parker-ucnZANGmyxM-unsplash.jpg',
-                  fit: BoxFit.cover,
-                ),
+                // child: Image.asset(
+                //   'assets/images/ryan-parker-ucnZANGmyxM-unsplash.jpg',
+                // fit: BoxFit.cover,
+                // ),
               ),
             )
           : HomePageWidget(),
@@ -55,10 +55,10 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               ? Builder(
                   builder: (context) => Container(
                     color: Colors.transparent,
-                    child: Image.asset(
-                      'assets/images/ryan-parker-ucnZANGmyxM-unsplash.jpg',
-                      fit: BoxFit.cover,
-                    ),
+                    // child: Image.asset(
+                    //   'assets/images/ryan-parker-ucnZANGmyxM-unsplash.jpg',
+                    //   fit: BoxFit.cover,
+                    // ),
                   ),
                 )
               : HomePageWidget(),

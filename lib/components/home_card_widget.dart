@@ -70,12 +70,12 @@ class _HomeCardWidgetState extends State<HomeCardWidget> {
                   topLeft: Radius.circular(12.0),
                   topRight: Radius.circular(12.0),
                 ),
-                child: Image.network(
-                  'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1750&q=80',
-                  width: double.infinity,
-                  height: 200.0,
-                  fit: BoxFit.cover,
-                ),
+                // child: Image.network(
+                //   'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1750&q=80',
+                //   width: double.infinity,
+                //   height: 200.0,
+                //   fit: BoxFit.cover,
+                // ),
               ),
             ),
             Padding(
