@@ -40,10 +40,10 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           ? Builder(
               builder: (context) => Container(
                 color: Colors.transparent,
-                // child: Image.asset(
-                //   'assets/images/ryan-parker-ucnZANGmyxM-unsplash.jpg',
-                // fit: BoxFit.cover,
-                // ),
+                child: Image.asset(
+                  'assets/images/Live_knowledge_tyranno-removebg-preview-removebg-preview_1.png',
+                  fit: BoxFit.fitWidth,
+                ),
               ),
             )
           : HomePageWidget(),
@@ -55,10 +55,10 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               ? Builder(
                   builder: (context) => Container(
                     color: Colors.transparent,
-                    // child: Image.asset(
-                    //   'assets/images/ryan-parker-ucnZANGmyxM-unsplash.jpg',
-                    //   fit: BoxFit.cover,
-                    // ),
+                    child: Image.asset(
+                      'assets/images/Live_knowledge_tyranno-removebg-preview-removebg-preview_1.png',
+                      fit: BoxFit.fitWidth,
+                    ),
                   ),
                 )
               : HomePageWidget(),
@@ -69,19 +69,24 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               builder: (context, params) => HomePageWidget(),
             ),
             FFRoute(
-              name: 'SearchPage',
-              path: 'searchPage',
-              builder: (context, params) => SearchPageWidget(),
-            ),
-            FFRoute(
               name: 'QuizGenPage',
               path: 'quizGenPage',
               builder: (context, params) => QuizGenPageWidget(),
             ),
             FFRoute(
+              name: 'SearchPage',
+              path: 'searchPage',
+              builder: (context, params) => SearchPageWidget(),
+            ),
+            FFRoute(
               name: 'TutorialPage',
               path: 'tutorialPage',
               builder: (context, params) => TutorialPageWidget(),
+            ),
+            FFRoute(
+              name: 'aichat',
+              path: 'aichat',
+              builder: (context, params) => AichatWidget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ),

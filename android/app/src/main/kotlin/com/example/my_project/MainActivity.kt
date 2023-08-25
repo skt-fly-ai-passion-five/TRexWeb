@@ -1,4 +1,4 @@
-package com.mycompany.travelapp
+package com.mycompany.TRex
 
 import io.flutter.embedding.android.FlutterActivity
 

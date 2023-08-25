@@ -1,4 +1,4 @@
-# Travel App
+# TRex
 
 A new Flutter project.
 
